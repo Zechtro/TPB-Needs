@@ -10,26 +10,31 @@
     <body>
         <div class="wrapper">
             <!-- START OF HEADER -->
-            <div class="header">
+            <header class="home__header">
+                <img class="header__logo" src="lala.jpg">
+                <form class="search-form" action="/search" method="get">
+                    <input type="text" name="needs" placeholder="Keperluan TPB apa yang ingin kamu cari">
+                    <button class="search-button type="submit">Cari</button>
+                </form>
                 <nav class="navbar">
-                    <div role="region" class="logo"></div>
-                    <div class="searchbar">Cari Buku yang Kamu Sukai</div>
-                    <div class="daftar">
-                        <h6>Daftar</h6>
-                    </div>
-                    <div class="masuk">
-                        <h6>Masuk</h6>
-                    </div>
+                    <button class="log-in-button">Log In</button>
+                    <button class="sign-in-button">Sign In</button>
                 </nav>
-                
-                <div class="thumbnail">
-                    <div class="text">
-                        <b>
-                            <h4>Populer</h4>
-                            <h2>Kalkulus Jilid 1</h2>
-                            <h6>Rasio</h6>
-                        </b>
-                        <p>*Deskripsi Produk*</p>
+            </header>
+            <!-- END OF HEADER -->
+            
+            <!-- START OF CONTENT -->
+            <article>
+                <section class="carousel">
+                    <div class="carousel-container">
+                        <div class="slide">
+                            <img src="lala.jpg" alt="Img1">
+                            <div class="slide-text">
+                                <h1>Kalkulus Jilid 1</h1>
+                                <p>Rasio</p>
+                                <p>*Deskripsi Produk*</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="masukkan-beli">
                         <div class="masukkan">
@@ -41,14 +46,11 @@
                         </div>
                     </div>
                     <div class="rounded-corner1"></div>
-                </div>
+                </section>
                 
                 <div class="bookpreview"></div>
-            </div>
-            <!-- END OF HEADER -->
+            
 
-            <!-- START OF CONTENT -->
-            <div class="content">
                 <div class="thread">
 
                 </div>
@@ -107,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </article>
             <!-- END OF CONTENT -->
 
             <!-- START OF FOOTER -->
