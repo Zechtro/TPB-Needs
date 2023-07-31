@@ -71,6 +71,34 @@ input[type="text"] {
     outline: none;
 }
 
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    background-image:url(calc-bg.jpg);
+    display:grid;
+    margin-bottom:150px;
+    height:50wh;
+
+}
+
+.carousel-deskripsi {
+    display:flex;
+    width:50vw;
+    flex-wrap:wrap;
+}
+
+.carousel-img {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    width: 250px;
+    height: 370px;
+}
+
 .wrapper {
     display: grid;
     grid-template-areas:
@@ -110,14 +138,6 @@ input[type="text"] {
 
 .beli {
     margin-left: 20vw;
-}
-
-.rounded-corner1 {
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-clip: content-box;
-
 }
 
 .content {
