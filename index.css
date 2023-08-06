@@ -179,7 +179,7 @@ input[type="text"] {
     justify-content:center;
     padding: 15px 15px 15px 19px;
     background-color: #FFE814;
-    color: ##000;
+    color: #000;
     border-radius: 25px 25px 25px 25px;
     cursor: pointer;   
     margin-left:175px;
@@ -304,4 +304,11 @@ input[type="text"] {
     margin-bottom:15px;
     align-items:center;
     justify-content:space-around;
+}
+
+footer {
+    display: flex;
+    background-color:#11009E;
+    color: #FFFFFF;
+    font-family: Montserrat;
 }

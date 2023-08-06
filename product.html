@@ -45,9 +45,11 @@
         }
 
         .product-information {
-            flex: 1; /* Let the text take up all available space */
+            flex: auto; /* Let the text take up all available space */
             max-width: 40%; /* Set the maximum width to 50% of the container width */
             float: left;
+            color: #000;
+            text-align: left;
         }
 
         .product-information h1 {
@@ -56,54 +58,68 @@
 
         .text-wrap {
             flex: 1; /* Allow the text to take up all available space in the container */
-            padding: 20px;
         }
 
         .text-wrap p {
-            max-width: 50%; /* Set the maximum width of the text to half of the container */
             margin: 0 auto;
         }
 
         .subheader {
-            margin-left: 100px;
+            margin-left: 50px;
         }
 
 
     </style>
+
+    <title>TPB-Needs : HOME</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header>
-        <h1>BOOKNEEDS</h1>
-        <div>
-            <button class="header-btn">Login</button>
-            <button class="header-btn sign-in">Sign In</button>
-        </div>
-    </header>
-
-
-    <div class="content-wrapper under-header">
-        <main class="main header-gap">
-            <div class="product-page-columns">
-                <div class="product-image">
-                    <img src="images/bukukalkulus.jpg" alt="kalkulus">
-                </div>
-                <div class="product-information">
-                    <div class="subheader">
-                        <h1> Kalkulus purcell </h1>
-                        <p> guy named purcell or something idk</p>
-                    </div>
-                    <div class="text-wrap">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. alias, modi neque maxime laudantium eos, maiores molestias tempora omnis amet quod, quidem excepturi doloribus distinctio unde dignissimos placeat rem fugiat.</p>
-                    </div>
-                    <h2> Price : </h2>
-                    <h1> Rp 100.000</h1>
-                    <div>
-                        <button class="header-btn">Add to cart</button>
-                        <button class="header-btn sign-in">Favourite</button>
-                    </div>
-                </div>
+    <div class="wrapper">
+        <!-- START OF HEADER -->
+        <header class="home__header">
+            <div class="logo">
+                <img class="header__logo1" src="images/Buku untuk TPB2.png">
+                <img class="header__logo2" src="images/TPBNeeds.png">
             </div>
-        </main>
+            <form class="search-form" action="/search" method="get">
+                <input type="text" name="needs" placeholder="Keperluan TPB apa yang ingin kamu cari">
+                <button class="search-button" type="submit">Cari</button>
+            </form>
+            <nav class="login-signin">
+                <button class="sign-in-button">Sign In</button>
+                <button class="log-in-button">Log In</button>
+            </nav>
+        </header>
+        <!-- END OF HEADER -->
+
+
+        <div class="content-wrapper under-header">
+            <main class="main header-gap">
+                <div class="product-page-columns">
+                    <div class="product-image">
+                        <img src="images/Calc-book.png" alt="kalkulus">
+                    </div>
+                    <div class="product-information">
+                        <div class="subheader">
+                            <h1> Kalkulus purcell </h1>
+                            <p> guy named purcell or something idk</p>
+                        </div>
+                        <div class="text-wrap">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. alias, modi neque maxime laudantium eos, maiores molestias tempora omnis amet quod, quidem excepturi doloribus distinctio unde dignissimos placeat rem fugiat.</p>
+                        </div>
+                        <h2> Price : </h2>
+                        <h1> Rp 100.000</h1>
+                        <div>
+                            <button class="header-btn">Add to cart</button>
+                            <button class="header-btn sign-in">Favourite</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
     <!-- Your other content goes here -->
 </body>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>TPB-Needs : HOME</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .sidebar{
+                display: block;
+                width: 15%;
+                color: #000;
+                padding-left: 20px;
+                padding-right: 2%;
+                margin-right: 2%;
+            }
+            .main-content{
+                color: #000;
+            }
+            .flexbox-container{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .item{
+                margin: 0px 10px 10px;
+                width: 200px;
+                height: 300px;
+                background-color: #fff;
+                overflow: hidden;
+                text-align: center;
+            }
+            .item h3 {
+                margin: 0px;
+                text-align: left;
+            }
+            .item h2 {
+                margin-block-start: 0px;
+                margin-block-end: 0px;
+                text-align: left;
+            }
+            .item p {
+                margin-block-start: 0px;
+                margin-block-end: 0px;
+                text-align: left;
+            }
+            .home__header {
+                position: fixed;
+                height: 10%;
+            }
+            .content-wrapper{
+                display: flex;
+                padding-top: 5%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- START OF HEADER -->
+        <header class="home__header wrapper">
+            <div class="logo">
+                <img class="header__logo1" src="images/Buku untuk TPB2.png">
+                <img class="header__logo2" src="images/TPBNeeds.png">
+            </div>
+            <form class="search-form" action="/search" method="get">
+                <input type="text" name="needs" placeholder="Keperluan TPB apa yang ingin kamu cari">
+                <button class="search-button" type="submit">Cari</button>
+            </form>
+            <nav class="login-signin">
+                <button class="sign-in-button">Sign In</button>
+                <button class="log-in-button">Log In</button>
+            </nav>
+        </header>
+
+        <main class="content-wrapper">
+            <div class="sidebar wrapper">
+                <h1> Filter </h1>
+                <p> Fakultas </p>
+                <input type="checkbox" id="steik" name="steik" value="STEI-K">
+                <label for="vehicle1"> STEI-K</label><br>
+                <input type="checkbox" id="steir" name="steir" value="STEI-R">
+                <label for="vehicle1"> STEI-R</label><br>
+                <p> Rumpun matkul </p>
+                <input type="checkbox" id="matematika" name="matematika" value="Matematika">
+                <label for="vehicle1"> Matematika</label><br>
+                <input type="checkbox" id="fisika" name="fisika" value="Fisika">
+                <label for="vehicle1"> Fisika</label><br>
+                <p>lainnya</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam illum totam sunt nihil obcaecati doloribus tenetur ipsam quidem, tempora eveniet magnam numquam eligendi, quas exercitationem voluptatum, porro et quos.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis id rem accusantium tempore iste, tenetur aut? Culpa tempora numquam quis sapiente unde. Ut veniam maxime minima commodi. Repudiandae, laborum excepturi.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor rerum minus quibusdam deserunt eaque repellat cupiditate! Consequatur architecto quis error fugit nihil atque ex, culpa, saepe, maxime veniam cumque tempore?</p>
+            </div>
+
+            <div class="main-content"> <!-- ini main content -->
+                <h1>Search results for : "Thing"</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, magnam ipsa. Ab voluptates officiis, est dolores numquam dolorem aliquam beatae nihil in, similique, facilis expedita non? Omnis animi cum nulla.</p>
+                
+                <div class="flexbox-container">
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="images/Calc-book.png" height="50%">
+                        <h3>Buku Calculus TPB blablabbla</h3>
+                        <h2>HARGA DISINI</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis excepturi a. Accusantium quaerat quis pariatur delectus! Odio maxime, ratione, reprehenderit veniam, fugit cum esse suscipit amet voluptatum voluptatem qui?</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </main>
+        
+        <!-- footer masbro -->
+        <footer>
+            <div style="display: block;">
+                <img src="images/Buku untuk TPB.png" width="40%">
+                <p>TPBNeeds</p>
+            </div>
+            <p style="margin-left: 200px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, alias numquam error expedita minus ipsum facilis ipsa aperiam deleniti voluptatibus, voluptates aspernatur quis nisi est a sunt amet earum ipsam.</p>
+        </footer>
+    </body>
+    
+</html>
+    
