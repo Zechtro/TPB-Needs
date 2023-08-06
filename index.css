@@ -1,6 +1,11 @@
 html, button {
     font-family: 'Montserrat';
 }
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
  
 body {
     margin: 0px 0px 0px 0px;
