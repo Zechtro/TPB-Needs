@@ -2,17 +2,36 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
-.home__header {
-    display: flex;
-    background-color: #11009E;
-    height: 64px;
-    justify-content: space-between;
+.wrapper {
+    background-color: #F8F1F1;
+    color: #FFFFFF;
+    font-family: Montserrat;
 }
 
-.header__logo {
+.home__header {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 64px;
+    justify-content: space-between;
+    align-items:center;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.logo {
+    display:flex;
+    align-items:center;
+}
+
+.header__logo1 {
     width: auto;
     height: 60px;
     margin-left: 2%;
+}
+
+.header__logo2 {
+    width: auto;
+    height: 30px; 
 }
 
 .search-form {
@@ -32,7 +51,7 @@ input[type="text"] {
 }
 
 .search-button:hover {
-    background-color: #0056b3;
+    background-color: #8696FE;
 }
 
 .search-button {
@@ -44,10 +63,15 @@ input[type="text"] {
     cursor: pointer;
 }
 
-.navbar > button {
+.login-signin {
+    display:flex;
+    align-items:center;
+}
+
+.login-signin > button {
     padding: 12px 20px;
     font-size: 16px;
-    border: none;
+    border: solid #4942E4 1px;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 10px;
@@ -58,17 +82,30 @@ input[type="text"] {
     color:#4942E4 ;
 }
 
+.sign-in-button:hover {
+    background-color:#D9D9D9;
+}
+
 .log-in-button {
     background-color: #4942E4;
     color: #fff;
 }
 
-.navbar > button:hover {
-    background-color: #0056b3;
+.log-in-button:hover {
+    background-color:#8696FE;
 }
 
-.navbar > button:focus {
+.login-signin > button:focus {
     outline: none;
+}
+
+.navbar {
+    display:flex;
+    height:40px;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:40px;
+    padding-right:40px;
 }
 
 .carousel {
@@ -78,17 +115,81 @@ input[type="text"] {
 }
 
 .slide {
-    background-image:url(calc-bg.jpg);
     display:grid;
+    background-image:url(images/calc-bg.jpg);
     margin-bottom:150px;
-    height:50wh;
-
+    height:400px;
+    border-radius:0px 0px 40px 40px;
 }
 
-.carousel-deskripsi {
+.slide-text {
+    margin-left:70px;
+    margin-top:30px;
+}
+
+.carousel__populer {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin:0px;
+}
+
+.carousel__buku {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0px;
+}
+
+.carousel__toko {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0px;
+}
+
+.carousel__deskripsi {
     display:flex;
     width:50vw;
     flex-wrap:wrap;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin:5px;
+}
+
+.masukkan-beli {
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+    margin-top:80px;
+}
+
+.masukkan-beli > button:hover {
+    background-color:#FFF388;
+}
+
+.btn-masukkan, .btn-beli {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 15px 15px 15px 19px;
+    background-color: #FFE814;
+    color: ##000;
+    border-radius: 25px 25px 25px 25px;
+    cursor: pointer;   
+    margin-left:175px;
+    text-align:center;
+    height:40px;
+    font-weight: 600; 
+}
+
+.btn-masukkan > svg {
+    margin-left:5px;
 }
 
 .carousel-img {
@@ -97,53 +198,110 @@ input[type="text"] {
     right: 60px;
     width: 250px;
     height: 370px;
+    border-radius:11px;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-areas:
-    'header'
-    'content'
-    'footer';
-    background-color: #F8F1F1;
-    color: #FFFFFF;
+.header-toko-terbaik {
+    display:flex;
+    justify-content:space-between;
 }
 
-.navbar {
+.toko-container {
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.toko__container {
+    display:flex;
+    height:400px;
+}
+
+.toko {
+    display:grid;
+    background-image:url(images/calc-bg.jpg);
+    border-radius:25px;
+    width: 300px;
+}
+
+.toko-info {
+    display:flex;
+    margin:150px 0px 0px 0px;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#11009E;
+    border-radius: 25px;
+}
+
+.toko__nama {
+    display:flex;
+    justify-content:center;
+}
+
+.toko-rating {
+    display:flex;
+    font-size: 15px;
+    justify-content:space-around;
+}
+
+.btn-kunjungi {
+    display:flex;
+    justify-content: center;  
+    margin-bottom:25px;
+}
+
+.btn__kunjungi {
+    background-color:#FFE814;
+    border-radius:15px;
+    width: 150px;
+    height: 50px;
+}
+
+.btn__kunjungi:hover {
+    background-color:#FFF16F;
+}
+
+.rekomendasi_buku {
+    margin-top:30px;
+}
+
+.header-rekomendasi {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #11009E;
-    /* border-radius: 0px 0px 30px 30px; */
+    justify-content:space-between;
 }
 
-.masuk {
-    margin-right: 5%;
+.buku-container {
+    display:flex;
+    height:400px;
+
 }
 
-.text {
-    display: flex;
-    align-item: center;
-    flex-direction: column;
-    width: 50vw;
+.buku {
+    display:flex;
+    border-radius:25px;
+    width:300px;
+    flex-direction:column;
 }
 
-.masukkan-beli {
-    display: flex;
+.buku__img {
+    border-radius:25px 25px 0px 0px;
+    height:65%;
 }
 
-.masukkan {
-    margin-left: 10vw;
+.buku__container {
+    display:flex;
+    background-color:#11009E;
+    border-radius:0px 0px 25px 25px;
+    flex-direction:column;
+    height:35%;
 }
 
-.beli {
-    margin-left: 20vw;
+.buku__judul {
+    margin-left:25px;
 }
 
-.content {
-    grid-area: content;
-}
-
-.footer {
-    grid-area: footer;
+.buku__info {
+    display:flex;
+    margin-bottom:15px;
+    align-items:center;
+    justify-content:space-around;
 }
