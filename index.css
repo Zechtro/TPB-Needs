@@ -3,22 +3,25 @@ body {
 }
 
 .wrapper {
-    background-color: #F8F1F1;
-    color: #FFFFFF;
+    display:flex;
+    flex-direction:column;
+    background-color: #FFF;
+    color: #000000;
     font-family: Montserrat;
 }
 
 .home__header {
+    position:fixed;
     display: flex;
     background-color: #FFFFFF;
     height: 64px;
     justify-content: space-between;
     align-items:center;
-    padding-left:20px;
-    padding-right:20px;
+    width:100vw;
 }
 
 .logo {
+    margin-left:20px;
     display:flex;
     align-items:center;
 }
@@ -66,6 +69,7 @@ input[type="text"] {
 .login-signin {
     display:flex;
     align-items:center;
+    margin-right:20px;
 }
 
 .login-signin > button {
@@ -100,18 +104,63 @@ input[type="text"] {
 }
 
 .navbar {
+    position:fixed;
     display:flex;
     height:40px;
+    margin-top:64px;
     justify-content:space-between;
     align-items:center;
-    padding-left:40px;
-    padding-right:40px;
+    background-color:#11009E;
+    width:100vw;
+}
+
+.navbar__btn {
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.navbar__btn > button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color:#11009E;
+    border:none;
+    color:#FFF;
+}
+
+.navbar__btn > button:hover {
+    border-radius: 10px;
+    background: #FFF;
+    color:#11009E;
+    fill:#11009E;
+}
+
+#navbar__left > button {
+    margin-left:35px;
+}
+
+#navbar__right {
+    display:flex;
+    align-items:center;
+}
+
+#navbar__right > button {
+    display:flex;
+    align-items:center;
+    padding: 7px;
+    margin-right:20px;
+}
+
+#navbar__right > button:hover {
+    background:#4942E4;
 }
 
 .carousel {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top:104px;
 }
 
 .slide {
@@ -304,4 +353,11 @@ input[type="text"] {
     margin-bottom:15px;
     align-items:center;
     justify-content:space-around;
+}
+
+footer {
+    display: flex;
+    background-color:#11009E;
+    color: #FFFFFF;
+    font-family: Montserrat;
 }
