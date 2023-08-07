@@ -20,7 +20,7 @@ Berdasarkan hasil design thinking yang sudah dilakukan sebelumnya, target pasar 
 ### Feature Requirement
 Terdapat tiga fitur utama dan mendasar yang kami kembangkan untuk program TPB-Needs, yakni: media informasi komunitas, pencarian/pembelian kebutuhan perkuliahan dengan fokus untuk produk buku, serta penjualan sebagai pusat informasi listing penjual produk. Dengan ini, kelompok merumuskan dan membuat dengan total lima web page, antara lain: welcoming page, product page, search result page, sign up page, dan sign in page.
 
-Untuk welcoming page, terdapat informasi berupa toko terbaik dan rekomendasi buku. Selain itu, kita bisa mengetik di kolom search bar untuk mencari keperluan yang dibutuhkan. Di samping itu, ada menu bar yang secara konsisten menampilkan tombol untuk berpindah ke page lain, yaitu: beranda, komunitas, kategori, dan daftar sebagai penjual, keranjang pembelian, notifikasi, informasi kontak, sign in, dan log in. Masing-masing tombol tersebut akan membawa user ke page yang berkaitan, terkecuali untuk tombol komunitas, kategori, daftar sebagai penjual, keranjang pembelian, notifikasi, dan informasi kontak, yang belum dapat diselesaikan karena adanya keterbatasan waktu dna sumber daya manusia. 
+Untuk welcoming page, terdapat informasi berupa toko terbaik dan rekomendasi buku. Selain itu, kita bisa mengetik di kolom search bar untuk mencari keperluan yang dibutuhkan. Di samping itu, ada menu bar yang secara konsisten menampilkan tombol untuk berpindah ke page lain, yaitu: beranda, komunitas, kategori, dan daftar sebagai penjual, keranjang pembelian, notifikasi, informasi kontak, sign in, dan log in. Masing-masing tombol tersebut akan membawa user ke page yang berkaitan, terkecuali untuk tombol komunitas, kategori, daftar sebagai penjual, keranjang pembelian, notifikasi, dan informasi kontak, yang belum dapat diselesaikan karena adanya keterbatasan waktu dan sumber daya manusia. 
 
 Untuk product page, terdapat informasi berupa kebutuhan TPB yang dipilih oleh user. Saat ini, kami baru hanya menampilkan informasi untuk buku Kalkulus Purcell, karena keterbatasan waktu yang tidak memungkinkan untuk kami membuat product page untuk setiap item yang saat ini sudah tersebar di kalangan mahasiswa ITB. Pada page ini, terdapat informasi berupa judul buku, informasi buku, harga, penambahan produk ke dalam keranjang, dan opsi untuk membuat produk sebagai favorit user. Dengan dua fitur terakhir belum mampu kami kembangkan secara lebih lanjut.
 
@@ -52,3 +52,7 @@ Halaman untuk membuat akun bagi user yang belum memiliki akun. Pada halaman ini,
 ### Sign In Page (login/register.html)
 Halaman untuk masuk ke akun bagi user yang sudah memiliki akun. Pada halaman ini, user perlu memasukkan username dan password akun mereka.
 <br>https://zechtro.github.io/TPB-Needs/login/register.html</br>
+
+*Catatan: Karena keterbatasan Github Pages, halaman masih berbentuk statik dan belum bisa dikembangkan menjadi dynamic* 
+
+## 4. Identitas Pembuat dan Kontribusi
