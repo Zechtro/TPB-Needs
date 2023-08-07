@@ -1,14 +1,14 @@
 # TPB-Needs
 
 
-# Guide untuk masing-masing page
+Guide untuk masing-masing page
 
-# Welcoming Page (index.html)
-# Page awal yang akan menavigasi user ke berbagai fitur atau bisa dikatakan main pagenya
+Welcoming Page (index.html)
+Page awal yang akan menavigasi user ke berbagai fitur atau bisa dikatakan main pagenya
 # https://zechtro.github.io/TPB-Needs/
 
-# Product Page (product.html)
-# Berisikan informasi produk yang di klik oleh user
+Product Page (product.html)
+Berisikan informasi produk yang di klik oleh user
 # https://zechtro.github.io/TPB-Needs/product.html
 
 # Search Result Page (search.html)
