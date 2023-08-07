@@ -53,4 +53,6 @@ Halaman untuk membuat akun bagi user yang belum memiliki akun. Pada halaman ini,
 Halaman untuk masuk ke akun bagi user yang sudah memiliki akun. Pada halaman ini, user perlu memasukkan username dan password akun mereka.
 <br>https://zechtro.github.io/TPB-Needs/login/register.html</br>
 
-catatan: karena keterbatasan github pages, halaman berbentuk statik dan belum bisa dibuat dynamic 
+*Catatan: Karena keterbatasan Github Pages, halaman masih berbentuk statik dan belum bisa dikembangkan menjadi dynamic* 
+
+## 4. Identitas Pembuat dan Kontribusi
