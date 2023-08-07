@@ -270,15 +270,18 @@ input[type="text"] {
 }
 
 .toko__container {
+    justify-content:space-around;
     display:flex;
     height:400px;
 }
 
 .toko {
     display:grid;
-    background-image:url(images/calc-bg.jpg);
     border-radius:25px;
     width: 300px;
+    margin-right:15px;
+    background-repeat:no-repeat;
+    background-position:top center;
 }
 
 .toko-info {

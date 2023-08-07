@@ -87,39 +87,7 @@
                 </article>
 
                 <section class="toko-container">
-                    <section class="toko_terbaik">
-                        <header class="header-toko-terbaik" aria-label="Toko Terbaik Kamu">
-                            <h2>Toko Terbaik Kamu</h2>
-                            <p>Lihat Semua</p>
-                        </header>
-                        <div class="toko__container">
-                            <div class="toko">
-                                <div class="toko-info">
-                                    <div class="toko__nama">
-                                        <h3>Ganesha Goods</h3>
-                                    </div>
-                                    <section class="toko-rating">
-                                        <div class="toko__rating">
-                                            <div class="logo_rating"></div>
-                                            <h6>4.9</h6>
-                                            <h6>Rating</h6>
-                                        </div>
-                                        <div class="toko__chat">
-                                            <h6>> 1 Jam</h6>
-                                            <h6>Balas Chat</h6>
-                                        </div>
-                                        <div class="toko__operasi">
-                                            <h6>10.00-20.00</h6>
-                                            <h6>Jam Operasi</h6>
-                                        </div>
-                                    </section>
-                                    <div class="btn-kunjungi">
-                                        <button class="btn__kunjungi">Kunjungi Toko</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <?php include("toko_terbaik.php")?>
                     <section class="rekomendasi_buku">
                         <header class="header-rekomendasi">
                             <h2>Rekomendasi Buku Untuk Kamu</h2>
