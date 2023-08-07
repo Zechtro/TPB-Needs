@@ -53,6 +53,20 @@ Halaman untuk membuat akun bagi user yang belum memiliki akun. Pada halaman ini,
 Halaman untuk masuk ke akun bagi user yang sudah memiliki akun. Pada halaman ini, user perlu memasukkan username dan password akun mereka.
 <br>https://zechtro.github.io/TPB-Needs/login/register.html</br>
 
-*Catatan: Karena keterbatasan Github Pages, halaman masih berbentuk statik dan belum bisa dikembangkan menjadi dynamic* 
+*Catatan: Karena keterbatasan Github Pages, halaman masih berbentuk static dan belum bisa dikembangkan menjadi dynamic* 
 
 ## 4. Identitas Pembuat dan Kontribusi
+Berikut identitas pembuat milestone dan kontribusinya:
+<br>NIM      - Nama                         - Kontribusi</br>
+<br>19622249 - Justin Aditya Putra Prabakti - Product page dan Search page</br>
+<br>19622221 - Steven Tjhia                 - Home Page (Header, Navbar, Toko)</br>
+<br>19622166 - Muhammad Neo Cicero Koda     - Login dan Register page</br>
+<br>19622165 - Farhan Nafis Rayhan          - Backend dan Database</br>
+<br>19622014 - Jonathan Wiguna              - Data Toko dan Produk</br>
+<br>19622240 - Gracya Tio Damena Sidabutar  - Data Toko dan Produk, Penjelasan Cara Penggunaan Program</br>
+<br>19622250 - Jonathan Emmanuel Saragih    - Data produk dan Pencarian Inspirasi</br>
+<br>19622107 - Richie Leonardo              - Pembuatan dan Penyuntingan file README</br>
+<br>19622220 - Kezia Caren Cahyadi          - Data Toko dan Produk</br>
+<br>19622109 - Willhemlmina Rachel Silalahi - Pembuatan dan Penyuntingan file doc</br>
+<br>19622125 - Arvyno Pranata Limahardja    - Pembuatan dan Penyuntingan file README</br>
+<br>19622178 - Muhammad Syarafi Akmal       - Register Page</br>
